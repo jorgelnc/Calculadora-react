@@ -7,28 +7,23 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
 .freecodecamp-logo-contenedor {
   width: 100%;
-  height: 0px;
+  height: 30px;
   display: flex;
   justify-content: center;
-  position: relative;
 }
 
 .freecodecamp-logo {
-height: 30px;
-z-index: 1;
-position: absolute;
-top: 250px;
-left: 350px;
-transform: rotate(270deg);
+height: 50px;
 }
 
 .contenedor-calculadora {
-  width: 450px;
-  height: 600px;
+  width: 400px;
+  height: 560px;
   padding: 14px;
   background-color: #99c9ff;
   border-radius: 20px;
